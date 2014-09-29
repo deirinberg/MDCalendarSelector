@@ -1,7 +1,7 @@
 MDCalendarSelector
 ==================
 
-Swift calendar component used in an app I created, [In the Loop](https://itunes.apple.com/us/app/in-loop-discover-nearby-events/id921923681?ls=1&mt=8), to select a range of dates
+Swift calendar component used in an app I created, [In the Loop](https://itunes.apple.com/us/app/in-loop-discover-nearby-events/id921923681?ls=1&mt=8), to select a range of dates.
 
 Integrating MDCalendar into a project only requires a few lines of code, and there are many ways to customize it. Only 3 files (found in the source folder) need to be added. An example project demonstrates this.
 
