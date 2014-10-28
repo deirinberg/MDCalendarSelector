@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var date = NSDate()
-        var dateView = MDCalendarSelector(frame: CGRectMake(0, 100, 300, 298), fontName: "Montserrat")
+        var dateView = MDCalendarSelector(frame: CGRectMake(0, 100, UIScreen.mainScreen().bounds.width*0.9, 317), fontName: "Montserrat")
         dateView.center = UIScreen.mainScreen().bounds.center
         dateView.backgroundViewColor = UIColor.blackColor()
         dateView.disabledTextColor = UIColor.lightGrayColor()

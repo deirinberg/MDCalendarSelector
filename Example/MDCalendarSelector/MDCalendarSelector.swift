@@ -35,7 +35,7 @@ class MDCalendarSelector: UIControl, UIGestureRecognizerDelegate {
     var selectedDates: Array<NSDate> = []
     var dateArray: Array<CalDate> = []
     var dateButtonArray: Array<CalDateButton> = []
-    var today = CalDate(date: NSDate.date(), full: true, enabled: false)
+    var today = CalDate(date: NSDate(), full: true, enabled: false)
     var weekdayArray = [NSLocalizedString("Sun", comment: "Sun"), NSLocalizedString("Mon", comment: "Mon"), NSLocalizedString("Tue", comment: "Tue"), NSLocalizedString("Wed", comment: "Wed"), NSLocalizedString("Thu", comment: "Thu"), NSLocalizedString("Fri", comment: "Fri"), NSLocalizedString("Sat", comment: "Sat")]
     var backgroundView = UIView()
     var box = UIView() //first row of dates
@@ -90,7 +90,7 @@ class MDCalendarSelector: UIControl, UIGestureRecognizerDelegate {
         dateButtonArray.removeAll(keepCapacity: false)
         
         let setDate = date.month == today.month ? today : date
-        let calendar = NSCalendar(identifier: NSGregorianCalendar)
+        let calendar = NSCalendar(identifier: NSGregorianCalendar)!
         let components = calendar.components(.DayCalendarUnit | .MonthCalendarUnit | .YearCalendarUnit, fromDate: setDate.date)
         var thisDate = calendar.dateFromComponents(components)
         var offsetComponents = NSDateComponents()
@@ -313,12 +313,12 @@ class MDCalendarSelector: UIControl, UIGestureRecognizerDelegate {
     }
     
     func setFont(cur: Double, max: Double, bold: Bool) -> UIFont {
-        var font = fontName != nil ? UIFont(name: fontName!, size: scaledFont(cur, max: max)) : UIFont.systemFontOfSize(scaledFont(cur, max: max))
+        var font = fontName != nil ? UIFont(name: fontName!, size: scaledFont(cur, max: max))! : UIFont.systemFontOfSize(scaledFont(cur, max: max))
         
         if bold {
             if let name = fontName {
                 if !name.hasSuffix("-Bold") {
-                    font = UIFont(name: name + "-Bold", size: scaledFont(cur, max: max))
+                    font = UIFont(name: name + "-Bold", size: scaledFont(cur, max: max))!
                 }
             }
             else {
