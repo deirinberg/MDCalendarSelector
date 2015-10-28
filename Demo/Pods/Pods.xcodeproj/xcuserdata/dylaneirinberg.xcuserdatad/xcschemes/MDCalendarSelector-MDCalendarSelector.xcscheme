@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E08ADD07A13E1FD0304F8F0D'
+               BlueprintIdentifier = '69E339C587B19EC6FE97CE4A'
                BlueprintName = 'MDCalendarSelector-MDCalendarSelector'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MDCalendarSelector.bundle'>

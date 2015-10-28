@@ -13,7 +13,7 @@ s.source           = { :git => "https://github.com/deirinberg/MDCalendarSelector
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'MDCalendarSelector/*.swift'
+  s.source_files = 'MDCalendarSelector/*.{swift}'
   s.resource_bundles = {
     'MDCalendarSelector' => ['MDCalendarSelector/*.png']
   }
