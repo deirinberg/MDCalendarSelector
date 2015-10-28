@@ -1,0 +1,6 @@
+framework module MDCalendarSelector {
+  umbrella header "MDCalendarSelector-umbrella.h"
+
+  export *
+  module * { export * }
+}

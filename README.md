@@ -28,7 +28,3 @@ UIColor **highlightedTextColor**- text color of selected days and header month
 Int **maxRange**- max amount of days that can be selected (default is one week), up to 14 days are supported  
 Int **monthRange**- max amount of months that calendar can go ahead to (default is 2)  
 Double **fontSize**- relative font size of all elements  
-
-
-
-
