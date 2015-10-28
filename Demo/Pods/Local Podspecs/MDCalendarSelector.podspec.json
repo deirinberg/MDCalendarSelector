@@ -1,8 +1,10 @@
 {
   "name": "MDCalendarSelector",
   "version": "0.1.0",
+  "platforms": {
+    "ios": "8.0"
+  },
   "summary": "Lightweight multidate calendar selector for iOS",
-  "description": "Easily select a range of dates in a lightweight easy to customize view.",
   "homepage": "https://github.com/deirinberg/MDCalendarSelector",
   "license": "MIT",
   "authors": {
@@ -10,23 +12,16 @@
   },
   "source": {
     "git": "https://github.com/deirinberg/MDCalendarSelector.git",
-    "branch": "cocoapods",
+    "commit": "732929b2ec30698ccac7cdb0d8c3be39ab16a158",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "requires_arc": true,
+  "description": "Easily select a range of dates in a lightweight easy to customize view.",
   "source_files": "MDCalendarSelector/*.{swift}",
-  "resource_bundles": {
-    "MDCalendarSelector": [
-      "MDCalendarSelector/*.png"
-    ]
-  },
   "frameworks": "UIKit",
   "dependencies": {
     "PureLayout": [
       "~> 3.0"
     ]
-  }
+  },
+  "requires_arc": true
 }

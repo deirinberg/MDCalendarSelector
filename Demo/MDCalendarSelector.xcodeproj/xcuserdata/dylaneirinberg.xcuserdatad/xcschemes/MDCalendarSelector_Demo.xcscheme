@@ -15,22 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "MDCalendarSelector_Example.app"
-               BlueprintName = "MDCalendarSelector_Example"
-               ReferencedContainer = "container:MDCalendarSelector.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MDCalendarSelector_Tests.xctest"
-               BlueprintName = "MDCalendarSelector_Tests"
+               BuildableName = "MDCalendarSelector_Demo.app"
+               BlueprintName = "MDCalendarSelector_Demo"
                ReferencedContainer = "container:MDCalendarSelector.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MDCalendarSelector_Tests.xctest"
-               BlueprintName = "MDCalendarSelector_Tests"
-               ReferencedContainer = "container:MDCalendarSelector.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MDCalendarSelector_Example.app"
-            BlueprintName = "MDCalendarSelector_Example"
+            BuildableName = "MDCalendarSelector_Demo.app"
+            BlueprintName = "MDCalendarSelector_Demo"
             ReferencedContainer = "container:MDCalendarSelector.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MDCalendarSelector_Example.app"
-            BlueprintName = "MDCalendarSelector_Example"
+            BuildableName = "MDCalendarSelector_Demo.app"
+            BlueprintName = "MDCalendarSelector_Demo"
             ReferencedContainer = "container:MDCalendarSelector.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -99,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MDCalendarSelector_Example.app"
-            BlueprintName = "MDCalendarSelector_Example"
+            BuildableName = "MDCalendarSelector_Demo.app"
+            BlueprintName = "MDCalendarSelector_Demo"
             ReferencedContainer = "container:MDCalendarSelector.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

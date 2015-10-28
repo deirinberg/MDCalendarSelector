@@ -1,5 +1,5 @@
 //
-//  CalendarSelector.swift
+//  MDCalendarSelector.swift
 //  MDCalendarSelector
 //
 //  Created by Dylan Eirinberg on 10/26/15.

@@ -84,10 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-MDCalendarSelector_Example/MDCalendarSelector.framework"
-  install_framework "Pods-MDCalendarSelector_Example/PureLayout.framework"
+  install_framework "Pods-MDCalendarSelector_Demo/PureLayout.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-MDCalendarSelector_Example/MDCalendarSelector.framework"
-  install_framework "Pods-MDCalendarSelector_Example/PureLayout.framework"
+  install_framework "Pods-MDCalendarSelector_Demo/PureLayout.framework"
 fi

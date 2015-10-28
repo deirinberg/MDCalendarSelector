@@ -1,7 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'MDCalendarSelector_Example' do
-  pod "MDCalendarSelector", :path => "../"
+target 'MDCalendarSelector_Demo' do
   pod 'PureLayout', '~> 3.0'
 end
