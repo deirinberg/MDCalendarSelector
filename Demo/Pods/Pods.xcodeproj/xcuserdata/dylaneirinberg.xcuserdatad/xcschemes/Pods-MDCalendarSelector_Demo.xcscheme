@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8BCAF7F244D0812C964D6683'
-               BlueprintName = 'PureLayout'
+               BlueprintIdentifier = '629C714088C873AFDC3E8C40'
+               BlueprintName = 'Pods-MDCalendarSelector_Demo'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'PureLayout.framework'>
+               BuildableName = 'Pods_MDCalendarSelector_Demo.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
