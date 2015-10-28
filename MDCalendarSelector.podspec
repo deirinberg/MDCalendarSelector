@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/deirinberg/MDCalendarSelector"
   s.license          = 'MIT'
   s.author           = { "Dylan Eirinberg" => "eirinber@usc.edu" }
-  s.source           = { :git => "https://github.com/deirinberg/MDCalendarSelector.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/deirinberg/MDCalendarSelector.git", :branch => "cocoapods", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/*.{swift}'
+  s.source_files = 'MDCalendarSelector/*.swift'
   s.resource_bundles = {
-    'MDCalendarSelector' => ['Pod/Assets/*.png']
+    'MDCalendarSelector' => ['MDCalendarSelector/*.png']
   }
   s.frameworks = 'UIKit'
   s.dependency 'PureLayout', '~> 3.0'
