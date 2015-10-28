@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MDCalendarSelector: f0f55a5e0e88d1e6dd5bed29068c2a0963326f2d
+  MDCalendarSelector: bc66106a805cbd622536cef2e887034c364412de
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
 
 COCOAPODS: 0.39.0

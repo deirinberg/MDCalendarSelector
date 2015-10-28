@@ -10,6 +10,7 @@
   },
   "source": {
     "git": "https://github.com/deirinberg/MDCalendarSelector.git",
+    "branch": "cocoapods",
     "tag": "0.1.0"
   },
   "platforms": {
