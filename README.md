@@ -6,8 +6,6 @@
 
 `MDCalendarSelector` is a lightweight customizable view that allows you to easily select a range of dates.
 
-![MDCalendarSelector](http://f.cl.ly/items/2G1F1Z0M0k0h2U3V1p39/SVProgressHUD.gif)
-
 ## Installation
 
 ### From CocoaPods
