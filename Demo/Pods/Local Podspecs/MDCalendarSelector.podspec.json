@@ -12,11 +12,11 @@
   },
   "source": {
     "git": "https://github.com/deirinberg/MDCalendarSelector.git",
-    "commit": "732929b2ec30698ccac7cdb0d8c3be39ab16a158",
+    "commit": "81c01577946215dafbc1a62d532bee68a463c566",
     "tag": "0.1.0"
   },
-  "description": "Easily select a range of dates in a lightweight easy to customize view.",
-  "source_files": "MDCalendarSelector/*.{swift}",
+  "description": "Easily select a range of dates in a lightweight customizable view.",
+  "source_files": "MDCalendarSelector/*.swift",
   "frameworks": "UIKit",
   "dependencies": {
     "PureLayout": [

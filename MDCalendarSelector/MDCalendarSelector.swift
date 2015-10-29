@@ -10,54 +10,54 @@ import Foundation
 import UIKit
 import PureLayout
 
-protocol MDCalendarSelectorDelegate {
+public protocol MDCalendarSelectorDelegate {
     
     func calendarSelector(calendarSelector: MDCalendarSelector, startDateChanged startDate: NSDate)
     func calendarSelector(calendarSelector: MDCalendarSelector, endDateChanged endDate: NSDate)
 }
 
-class MDCalendarSelector: UIView {
+public class MDCalendarSelector: UIView {
     
-    var delegate: MDCalendarSelectorDelegate?
+    public var delegate: MDCalendarSelectorDelegate?
     
     // public variables
     
     // changes color behind the main section of the calendar
-    var backgroundViewColor: UIColor = UIColor.blackColor()
+    public var backgroundViewColor: UIColor = UIColor.blackColor()
     
     // background color of header and of selected days
-    var highlightedColor: UIColor = UIColor.themeRedColor()
+    public var highlightedColor: UIColor = UIColor.themeRedColor()
     
     // text color of days that can be selected
-    var dateTextColor: UIColor = UIColor.whiteColor()
+    public var dateTextColor: UIColor = UIColor.whiteColor()
     
     // text color of days that are in a different month
-    var nextDateTextColor: UIColor = UIColor(white: 1.0, alpha: 0.5)
+    public var nextDateTextColor: UIColor = UIColor(white: 1.0, alpha: 0.5)
     
     // text color of days that are disabled
-    var disabledTextColor: UIColor = UIColor(white: 1.0, alpha: 0.3)
+    public var disabledTextColor: UIColor = UIColor(white: 1.0, alpha: 0.3)
     
     // text color of selected days and header month
-    var highlightedTextColor: UIColor = UIColor.whiteColor()
+    public var highlightedTextColor: UIColor = UIColor.whiteColor()
     
     // max amount of days that can be selected (default is 21 days), max is 28
-    var maxRange: UInt = 21
+    public var maxRange: UInt = 21
     
     // font name for all regular text
-    var regularFontName: String?
+    public var regularFontName: String?
     
     // font name for all bold text
-    var boldFontName: String?
+    public var boldFontName: String?
 
     // font size for the headerLabel text
-    var headerFontSize: CGFloat = 15.0
+    public var headerFontSize: CGFloat = 15.0
     
     // font size for dates
-    var dateFontSize: CGFloat = 13.0
+    public var dateFontSize: CGFloat = 13.0
     
     // public readonly variables
     
-    var startDate: NSDate? {
+    public var startDate: NSDate? {
         get {
             if let date = prevMonthStartDate {
                 return date
@@ -71,7 +71,7 @@ class MDCalendarSelector: UIView {
         }
     }
     
-    var endDate: NSDate? {
+    public var endDate: NSDate? {
         get {
             if let date = nextMonthEndDate {
                 return date
@@ -85,7 +85,7 @@ class MDCalendarSelector: UIView {
         }
     }
     
-    var selectedLength: Int {
+    public var selectedLength: Int {
         get {
             
             let calendar = NSCalendar.currentCalendar()
@@ -172,7 +172,7 @@ class MDCalendarSelector: UIView {
         commonInit()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonInit()
     }
@@ -259,7 +259,7 @@ class MDCalendarSelector: UIView {
         updateConstraints()
     }
     
-    override func updateConstraints() {
+    override public func updateConstraints() {
         
         if !didSetupConstraints {
             headerView
@@ -339,7 +339,7 @@ class MDCalendarSelector: UIView {
         super.updateConstraints()
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         for i in 0..<42 {
             let label: UILabel = dateLabels[i]
@@ -589,7 +589,7 @@ class MDCalendarSelector: UIView {
         return dateFormatter.dateFromString(dateString)!
     }
     
-    func goToToday() {
+    public func goToToday() {
         populateMonth(todayDate)
         startIndex = todayIndex
         endIndex = todayIndex
@@ -616,11 +616,11 @@ class MDCalendarSelector: UIView {
     
     // touch handling
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         touchesMoved(touches, withEvent: event)
     }
     
-    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override public func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if let location = touches.first?.locationInView(monthButtonsContainerView) {
             if CGRectContainsPoint(monthButtonsContainerView.frame, location) {
                 for i in 0..<dateLabels.count {
@@ -634,7 +634,7 @@ class MDCalendarSelector: UIView {
         }
     }
     
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override public func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if let location = touches.first?.locationInView(monthButtonsContainerView) {
             
             let minDateLabel: UILabel = dateLabels[0]

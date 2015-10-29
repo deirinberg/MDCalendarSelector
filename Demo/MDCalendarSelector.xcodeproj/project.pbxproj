@@ -13,10 +13,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		64C80D0DB9B1916640E7FAEA /* Pods_MDCalendarSelector_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126435B906A7DC618F0FAE6C /* Pods_MDCalendarSelector_Demo.framework */; };
-		CC2F8FF51BE1408E004A0DA3 /* MDBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F8FF11BE1408E004A0DA3 /* MDBoxView.swift */; };
-		CC2F8FF61BE1408E004A0DA3 /* MDCalendarSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F8FF21BE1408E004A0DA3 /* MDCalendarSelector.swift */; };
-		CC2F8FF71BE1408E004A0DA3 /* NSDate+MDCalendarSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F8FF31BE1408E004A0DA3 /* NSDate+MDCalendarSelector.swift */; };
-		CC2F8FF81BE1408E004A0DA3 /* UIColor+MDCalendarSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F8FF41BE1408E004A0DA3 /* UIColor+MDCalendarSelector.swift */; };
 		CC2F8FFA1BE14214004A0DA3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2F8FEA1BE13B43004A0DA3 /* Montserrat-Bold.ttf */; };
 		CC2F8FFB1BE14214004A0DA3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2F8FEB1BE13B43004A0DA3 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
@@ -42,10 +38,6 @@
 		ACF66E93F2C085D8C0888E86 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CC2F8FEA1BE13B43004A0DA3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		CC2F8FEB1BE13B43004A0DA3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		CC2F8FF11BE1408E004A0DA3 /* MDBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MDBoxView.swift; path = ../../MDCalendarSelector/MDBoxView.swift; sourceTree = "<group>"; };
-		CC2F8FF21BE1408E004A0DA3 /* MDCalendarSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MDCalendarSelector.swift; path = ../../MDCalendarSelector/MDCalendarSelector.swift; sourceTree = "<group>"; };
-		CC2F8FF31BE1408E004A0DA3 /* NSDate+MDCalendarSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+MDCalendarSelector.swift"; path = "../../MDCalendarSelector/NSDate+MDCalendarSelector.swift"; sourceTree = "<group>"; };
-		CC2F8FF41BE1408E004A0DA3 /* UIColor+MDCalendarSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+MDCalendarSelector.swift"; path = "../../MDCalendarSelector/UIColor+MDCalendarSelector.swift"; sourceTree = "<group>"; };
 		FD97698B1946CC8EEA87C645 /* Pods-MDCalendarSelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDCalendarSelector_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDCalendarSelector_Tests/Pods-MDCalendarSelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +102,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				CC2F8FF91BE14095004A0DA3 /* Source */,
 				CCF655D61BE0A7B700EF5E67 /* Resources */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -126,17 +117,6 @@
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CC2F8FF91BE14095004A0DA3 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				CC2F8FF21BE1408E004A0DA3 /* MDCalendarSelector.swift */,
-				CC2F8FF11BE1408E004A0DA3 /* MDBoxView.swift */,
-				CC2F8FF31BE1408E004A0DA3 /* NSDate+MDCalendarSelector.swift */,
-				CC2F8FF41BE1408E004A0DA3 /* UIColor+MDCalendarSelector.swift */,
-			);
-			name = Source;
 			sourceTree = "<group>";
 		};
 		CCF655D61BE0A7B700EF5E67 /* Resources */ = {
@@ -273,12 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC2F8FF71BE1408E004A0DA3 /* NSDate+MDCalendarSelector.swift in Sources */,
-				CC2F8FF51BE1408E004A0DA3 /* MDBoxView.swift in Sources */,
-				CC2F8FF81BE1408E004A0DA3 /* UIColor+MDCalendarSelector.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				CC2F8FF61BE1408E004A0DA3 /* MDCalendarSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

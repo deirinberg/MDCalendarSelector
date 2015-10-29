@@ -59,11 +59,13 @@ Declare and initialize MDCalendarSelector like a normal view. Add an MDCalendarS
   var dateFontSize: CGFloat  // font size for dates, default is 13.0
   ```
   
-## Other Readable Properties
+## Other Readonly Properties and Functions
 ```swift
 var startDate: NSDate // initial date of selected range
 var endDate: NSDate // last date of selected range
 var selectedLength: Int // length of selected date range
+
+func goToToday() // reset selected date to today
 ```
 
 ## Examples

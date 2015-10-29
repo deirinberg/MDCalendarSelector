@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MDCalendarSelector.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MDCalendarSelector_Demo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>19FF6F495ACEE438946B8B681C933BBB</key>
+		<key>CA10CFB82E6CFF45FF1BD6A5FD728805</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>43B4F470BE4EC8426E7D60F6ACCCD171</key>
+		<key>E3A2440DBAD6EB919BC489BFCE0F1B0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAD027EE370622E2094C8897516232CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

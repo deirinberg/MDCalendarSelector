@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    class func themeRedColor() -> UIColor {
+    public class func themeRedColor() -> UIColor {
         return UIColor(red: 241/255, green: 89/255, blue: 90/255, alpha: 1.0)
     }
 }

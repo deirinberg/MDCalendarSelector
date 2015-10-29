@@ -9,7 +9,7 @@
 import Foundation
 
 extension NSDate {
-    var dayOfWeekNum: Int {
+    public var dayOfWeekNum: Int {
         get {
             let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "ee"
@@ -17,7 +17,7 @@ extension NSDate {
         }
     }
     
-    var month: Int {
+    public var month: Int {
         get {
             let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "MM"
@@ -25,7 +25,7 @@ extension NSDate {
         }
     }
     
-    var monthString: String {
+    public var monthString: String {
         get {
             let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "MMMM"
@@ -33,7 +33,7 @@ extension NSDate {
         }
     }
     
-    var shortMonthString: String {
+    public var shortMonthString: String {
         get {
             let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "MMM"
@@ -41,7 +41,7 @@ extension NSDate {
         }
     }
     
-    var day: Int {
+    public var day: Int {
         get {
             let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "d"
@@ -49,7 +49,7 @@ extension NSDate {
         }
     }
     
-    var dateString: String {
+    public var dateString: String {
         get {
             let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "yyyy-MM-dd"
@@ -57,7 +57,7 @@ extension NSDate {
         }
     }
     
-    var displayDateString: String {
+    public var displayDateString: String {
         get {
             let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "EEE M/dd/yy"
@@ -65,7 +65,7 @@ extension NSDate {
         }
     }
     
-    var year: Int {
+    public var year: Int {
         get {
             let dateFormatter = NSDateFormatter()
             dateFormatter.dateFormat = "yyyy"

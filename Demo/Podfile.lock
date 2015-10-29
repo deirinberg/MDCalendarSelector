@@ -1,10 +1,18 @@
 PODS:
+  - MDCalendarSelector (0.1.0):
+    - PureLayout (~> 3.0)
   - PureLayout (3.0.1)
 
 DEPENDENCIES:
+  - MDCalendarSelector (from `../`)
   - PureLayout (~> 3.0)
 
+EXTERNAL SOURCES:
+  MDCalendarSelector:
+    :path: "../"
+
 SPEC CHECKSUMS:
+  MDCalendarSelector: 9f7def34f18319b1b23a936ab302a976058f1c83
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
 
 COCOAPODS: 0.39.0
