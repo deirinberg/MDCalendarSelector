@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/deirinberg/MDCalendarSelector"
   s.license          = 'MIT'
   s.author           = { "Dylan Eirinberg" => "eirinber@usc.edu" }
-  s.source           = { :git => "https://github.com/deirinberg/MDCalendarSelector.git", :tag => s.version.to_s }
-  s.description    = 'Easily select a range of dates in a lightweight easy to customize view.'
+  s.source           = { :git => "https://github.com/deirinberg/MDCalendarSelector.git", :commit => "81c01577946215dafbc1a62d532bee68a463c566", :tag => s.version.to_s }
+  s.description    = 'Easily select a range of dates in a lightweight customizable view.'
   s.source_files = 'MDCalendarSelector/*.{swift}'
   s.framework = 'UIKit'
   s.dependency 'PureLayout', '~> 3.0'
