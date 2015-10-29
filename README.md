@@ -5,6 +5,8 @@
 ![Pod Platform](https://img.shields.io/cocoapods/p/MDCalendarSelector.svg?style=flat)
 
 `MDCalendarSelector` is a lightweight customizable view that allows you to easily select a range of dates.
+<br><br>
+<img src="https://raw.githubusercontent.com/deirinberg/MDCalendarSelector/master/Assets/MDCalendarSelector%20Screenshot.png" width="250">
 
 ## Installation
 
