@@ -12,10 +12,11 @@
 
 ### From CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like `MDCalendarSelector` in your projects. Simply add the following line to your [Podfile](http://guides.cocoapods.org/using/using-cocoapods.html):
+[CocoaPods](http://cocoapods.org) is a dependency manager for Swift and Objective-C, which automates and simplifies the process of using 3rd-party libraries like `MDCalendarSelector` in your projects. Simply add the following lines to your [Podfile](http://guides.cocoapods.org/using/using-cocoapods.html):
 
 ```ruby
-pod 'MDCalendarSelector'
+  use_frameworks!
+  pod 'MDCalendarSelector'
 ```
 
 ### Manually
